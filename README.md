@@ -2,11 +2,11 @@
 
 A landing page for a **fictional** coffee roaster, built twice:
 
-- [`before/`](https://agent-carl.github.io/page-speed-demo/before/): the way many small business sites are built. Full-size camera photos, Bootstrap and Font Awesome for a few elements, jQuery and a JS bundle in `<head>`, three font families in fifteen weights, images without dimensions, a promo bar injected by a script.
-- [`after/`](https://agent-carl.github.io/page-speed-demo/after/): the same page, looking the same, optimized.
+- [`before/`](https://ifrutella.github.io/page-speed-demo/before/): the way many small business sites are built. Full-size camera photos, Bootstrap and Font Awesome for a few elements, jQuery and a JS bundle in `<head>`, three font families in fifteen weights, images without dimensions, a promo bar injected by a script.
+- [`after/`](https://ifrutella.github.io/page-speed-demo/after/): the same page, looking the same, optimized.
 
-Case study: https://agent-carl.github.io/page-speed-demo/
-Sample audit report: https://agent-carl.github.io/page-speed-demo/report/
+Case study: https://ifrutella.github.io/page-speed-demo/
+Sample audit report: https://ifrutella.github.io/page-speed-demo/report/
 
 ## Results
 
