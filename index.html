@@ -6,6 +6,12 @@
   <title>Page speed case study: the same page before and after optimization</title>
   <meta name="description" content="A landing page with typical speed problems, and the same page optimized: mobile PageSpeed 66 to 97, page weight 4.8 MB to 34 KB. Measured with Google PageSpeed Insights.">
   <link rel="canonical" href="https://ifrutella.github.io/page-speed-demo/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Page speed case study: the same page before and after">
+  <meta property="og:description" content="Mobile PageSpeed 66 to 97, page weight 4.8 MB to 34 KB, and what was changed.">
+  <meta property="og:url" content="https://ifrutella.github.io/page-speed-demo/">
+  <meta property="og:image" content="https://ifrutella.github.io/page-speed-demo/og.png">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="case.css">
 </head>
@@ -50,7 +56,7 @@
           </tbody>
         </table>
       </div>
-      <p class="muted">Full reports: <a href="https://pagespeed.web.dev/analysis/https-agent-carl-github-io-page-speed-demo-before/lwz5npnrrp?form_factor=mobile">before</a>, <a href="https://pagespeed.web.dev/analysis/https-agent-carl-github-io-page-speed-demo-after/djt2lafuyw?form_factor=mobile">after</a>.</p>
+      <p class="muted">Run a fresh PageSpeed test: <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fifrutella.github.io%2Fpage-speed-demo%2Fbefore%2F&amp;form_factor=mobile">before</a>, <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fifrutella.github.io%2Fpage-speed-demo%2Fafter%2F&amp;form_factor=mobile">after</a>.</p>
     </section>
 
     <section>
@@ -69,7 +75,7 @@
           <p>The page loaded Bootstrap, Font Awesome, jQuery and a JavaScript bundle before showing anything, but used almost none of it. They are gone: the page needs about 2.5 KB of its own CSS, which is now inlined, and three small SVG icons replace a whole icon font.</p>
         </li>
         <li>
-          <h3>Fonts that do not hold the page hostage</h3>
+          <h3>Fonts no longer block the first paint</h3>
           <p>Three font families in fifteen weights became one family in two weights, loaded without blocking the first paint. The text appears right away in a system font and switches to the brand font a moment later.</p>
         </li>
         <li>
